@@ -9,3 +9,7 @@ Estados de GIT: Existem basicamente 4 estados para classificar os arquivos
 Parte 2
 Arquivos modificados terão uma sinalização diferente dentre dos gerenciadores de GIT, com um símbolo M ao seu lado.
 Isso mostra que os mesmo foram modificados e salvos, porém ainda não foram enciados para o repositório da nuvem.
+
+Ao utilizar o comando "git diff", o sistema reconhece e exibe as alterações feitas nos arquivos - tanto alterações como adições.
+    Para observar as alterações feitas em arquivos de Staged, o comando deve ser "git diff --Staged"
+Após isso, é o momento de realizar o commit, para que o arquivo atualizado seja postado, assim podendo ser acessado ou recuperado no futuro.
