@@ -5,3 +5,7 @@ Estados de GIT: Existem basicamente 4 estados para classificar os arquivos
     - Modified: (sinal M) quando há mudanças no arquivo, ou seja, haverá uma indicação de que os arquivos foram modificados.
     - Staged: após o Modified a classificação Staged é como uma preparação para o commit, ou seja, todas as modificações feitas estão de acordo com o desejado.
     - Untracked: quando algum novo arquivo é adicionado/criado no projeto, independente se modificado ou não, ele ainda não está mapeado.
+
+Parte 2
+Arquivos modificados terão uma sinalização diferente dentre dos gerenciadores de GIT, com um símbolo M ao seu lado.
+Isso mostra que os mesmo foram modificados e salvos, porém ainda não foram enciados para o repositório da nuvem.
