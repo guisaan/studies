@@ -1,0 +1,7 @@
+#Gravando mudanças no Repositório GIT
+
+Estados de GIT: Existem basicamente 4 estados para classificar os arquivos
+    - Unmodified: classificação de arquivo que está mapeado e salvo no formato que está(final).
+    - Modified: (sinal M) quando há mudanças no arquivo, ou seja, haverá uma indicação de que os arquivos foram modificados.
+    - Staged: após o Modified a classificação Staged é como uma preparação para o commit, ou seja, todas as modificações feitas estão de acordo com o desejado.
+    - Untracked: quando algum novo arquivo é adicionado/criado no projeto, independente se modificado ou não, ele ainda não está mapeado.
