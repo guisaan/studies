@@ -31,7 +31,15 @@ Repositórios Remotos:
     "git pull", vai ralizar o download do arquivo direto para a pasta local e atualiza o arquivo local.
     "git fetch", realiza o download do arquivo mas não altera local, dando a oportunidade de que 
     sejam visualizadas as alterações antes de unificação dos arquivos. (comando diff origin/master).
+** Existe um indicador, geralmente nas extremidades dos editores, onde você consegue vizualizar de está trabalhando em um pasta principal ou em uma branch**
 
 Git Branchs (ramificações).
 - Ramificações são ramos "braços", possibilitando que outrs pessoa possam desenvolver um mesmo código,
 assim num futuro próximo tudo o que foi criados pelas duas pessoas pode ser integrado no programa final simultaneamente.
+É possível criar multipluas branchs, até dentro de outras, cada vez mais intrínsecas, aumentando a precisão das etapas do projeto.
+    "git branch <nome da branch>" - vai ser criada uma ramificação de um diretório principal, assim mais pessoa poderão trabalhar sem criar um fluxo desorganizado de arquivos.
+    "git checkout <nome da branch>" - levará o usuário para a ramificação indicada. Isso pode ser feito pela interface das IDEs também.
+
+Git Merge (combinar).
+- Ao contŕario, ou após, de seração o Git Merge é um comando usado para combinar diretórios com multiplos arquivos.
+"git merge <nome da branch>" - isso ira trazer os arquivos da outra ramificação, para a atual.
