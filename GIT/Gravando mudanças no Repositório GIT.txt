@@ -13,3 +13,28 @@ Isso mostra que os mesmo foram modificados e salvos, porém ainda não foram enc
 Ao utilizar o comando "git diff", o sistema reconhece e exibe as alterações feitas nos arquivos - tanto alterações como adições.
     Para observar as alterações feitas em arquivos de Staged, o comando deve ser "git diff --Staged"
 Após isso, é o momento de realizar o commit, para que o arquivo atualizado seja postado, assim podendo ser acessado ou recuperado no futuro.
+
+Parte 3
+Comandos log e restore
+
+    - log:  exibe um histórico dos commits que foram realizados, exibindo dados dessa ação.
+               Como o usuário para qual foi executado e até omesmo um hash (codigo único)
+               que pode ser acessado para verificar exatamente o que foi realizado.
+    - restore: ao utilizar o hash você pode retornar as alterações de um determinado momento(log),
+                     mesmo modificado. Assim é possível consultar e até evitar uma ação.
+                     Com "git restore --staged nome-do-arquivo", por exemplo, você consegue retornar um arquivo 
+                     que já estava no momento de staging.
+
+Repositórios Remotos: 
+- Repositórios remotos. git remote - exibi tudo o que já está na nuvem
+    "git push", vai realizar o upload do arquivo direto na nuvem após o commit.
+    "git pull", vai ralizar o download do arquivo direto para a pasta local e atualiza o arquivo local.
+    "git fetch", realiza o download do arquivo mas não altera local, dando a oportunidade de que 
+    sejam visualizadas as alterações antes de unificação dos arquivos. (comando diff origin/master).
+
+Git Branchs (ramificações).
+- Ramificações são ramos "braços", possibilitando que outrs pessoa possam desenvolver um mesmo código,
+assim num futuro próximo tudo o que foi criados pelas duas pessoas pode ser integrado no programa final simultaneamente.
+
+
+
