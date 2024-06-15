@@ -35,6 +35,3 @@ Repositórios Remotos:
 Git Branchs (ramificações).
 - Ramificações são ramos "braços", possibilitando que outrs pessoa possam desenvolver um mesmo código,
 assim num futuro próximo tudo o que foi criados pelas duas pessoas pode ser integrado no programa final simultaneamente.
-
-
-
